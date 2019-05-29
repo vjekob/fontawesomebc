@@ -1,0 +1,26 @@
+div.button {
+    width: 160px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: #2875af;
+    color: #f3f3f3;
+    transition: all 150ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.button:hover {
+    background-color: #0d4772;
+}
+
+div.button>.caption {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+
+div.button>.icon {
+    font-size: 32px;
+}
