@@ -7,7 +7,7 @@
     font-style: normal;
     font-weight: 900;
     font-display: auto;
-    src: url("../Fonts/fa-solid-900.woff") format("woff")
+    src: url("../Fonts/fa-solid-900.woff") format("woff");
 }
 
 .fa,
