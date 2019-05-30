@@ -17,6 +17,7 @@ controladdin "Icon Button"
     RequestedHeight = 100;
 
     event ControlReady();
+    event OnClick();
     procedure SetStyle(Style: Text);
     procedure SetIcon(Icon: Text);
 }

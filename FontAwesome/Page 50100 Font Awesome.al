@@ -51,6 +51,11 @@ page 50100 "Font Awesome"
                             SetStyle();
                             SetIcon();
                         end;
+
+                        trigger OnClick();
+                        begin
+                            Message(MakingErikAndEricHappy);
+                        end;
                     }
                 }
             }
@@ -61,6 +66,7 @@ page 50100 "Font Awesome"
         IsReady: Boolean;
         Style: Text;
         Icon: Text;
+        MakingErikAndEricHappy: Label 'Clicking this makes Erik & Eric Happy. Keep clicking 😜😎';
 
     local procedure SetStyle();
     begin
