@@ -6,6 +6,9 @@
 
         var button = document.createElement("div");
         button.classList.add("button");
+        button.addEventListener("click", function() {
+            Microsoft.Dynamics.NAV.InvokeExtensibilityMethod("OnClick", []);
+        });
         hostControl.appendChild(button);
 
         iconControl = document.createElement("span");
