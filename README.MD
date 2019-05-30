@@ -14,3 +14,8 @@ By popular demand: some folks didn't know how to get this button to emit a click
 so this amazing feature is now fully supported. Special thanks to @eHougaard and 
 @waldo1001 for pointing out how stupid it is to have a button without a click event. Guys,
 enjoy clicking!
+
+### Notes to the Reorganized-💩💩💩 branch
+
+This branch is created by demand of @waldo1001, he wanted to see if his extension can
+handle the Control Add-in files. As it turns out, it cannot.
